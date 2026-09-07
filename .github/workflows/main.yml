@@ -1,0 +1,14 @@
+name: hanzala
+
+on:
+   push:
+      branches:
+         - main
+
+jobs:
+   disable:
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: hanzalasqb
+           run: echo "hello this is disable Process"
